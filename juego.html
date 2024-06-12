@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>EDUCATIONAL GAME</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="" alt="" class="img">
+        <header>
+            <div class="puntaje">
+                <img src="img/puntos.png" alt="">
+                <span class="puntos" id="puntos">0</span>
+
+            </div>
+            <div class="jugador">
+                <span class="nombre" id="nombre"> - </span>
+                <img src="img/user.png" alt="">
+            </div>
+        </header>
+
+        <!--pantalla de preguntas-->
+
+        <main class="juego">
+            <div class="contador-pregunta">
+                <span id="num-pregunta" class="num-pregunta">01</span>
+                /
+                <span> 5</span>
+            </div>
+            <p id="txt-pregunta" class="pregunta">
+                ¿Texto de la pregunta ?
+            </p>
+
+            <div class="opciones" id="opciones">
+                <button class="opcion" id="a">OPCION A</button>
+                <button class="opcion" id="b">OPCION B</button>
+                <button class="opcion" id="c">OPCION C</button>
+                <button class="opcion" id="d">OPCION D</button>
+            </div>
+
+            <button class="btn" id="siguiente">Siguiente</button>
+
+        </main>
+    </div>
+
+    <script src="juego.js"></script>
+</body>
+
+</html>
